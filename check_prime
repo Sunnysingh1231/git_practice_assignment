@@ -1,0 +1,15 @@
+
+
+function checkPrime(n){
+    let factor = ""
+
+    for(let i = 0 ; i<n ;i++){
+        if(i%n==0){
+            factor++;
+        }
+    }
+    
+    if(factor == 2){
+        return true;
+    } return false ;
+}
